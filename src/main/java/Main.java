@@ -33,7 +33,7 @@ public class Main {
         logger.log("Asking user to fill data for filter...\n");
         System.out.println("Enter the value for filter:");
         int filterValue = console.nextInt();
-        logger.log("Value for filter (" + filterValue + ") is entered\n");
+        logger.log("Value for filter (" + filterValue + ") is entered!\n");
 
         logger.log("Filter is running...");
         Filter filter = new Filter(filterValue);
